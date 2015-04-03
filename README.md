@@ -13,7 +13,7 @@ var i18n = require("i18n"),
     i18n = require('i18-list')(i18n);
 var app = express();
 
-app.get( __l('/:locale/products'), function (req, res) {
+app.get( i18n.__l('/:locale/products'), function (req, res) {
   req.setLocale( req.params.locale );
   res.render('index');
   // make sure that you add translation for `/:locale/products` for all locales
