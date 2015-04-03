@@ -1,0 +1,30 @@
+{
+  "name": "i18n-list",
+  "version": "0.1.0",
+  "description": "Small i18n-node extension adding function __l which returns a list of known translations for a key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpepermint/i18n-node-list"
+  },
+  "keywords": [
+    "i18n",
+    "i18n-list",
+    "trnaslation",
+    "translations",
+    "localization",
+    "localizations",
+    "locales",
+    "routes",
+    "express"
+  ],
+  "author": "Xpepermint",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpepermint/i18n-node-list/issues"
+  },
+  "homepage": "https://github.com/xpepermint/i18n-node-list"
+}
